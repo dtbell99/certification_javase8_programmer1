@@ -43,6 +43,62 @@
 		{
 			"q": "Valid keyword: strictfp",
 			"a": "true"
+		},
+		{
+			"q": "T/F : There can be only one public class per source file?",
+			"a": "true"
+		},
+		{
+			"q": "T/F: Classes can be made private?",
+			"a": "false"
+		},
+		{
+			"q": "if there is a public class does the file name have to match True/False",
+			"a": "true"
+		},
+		{
+			"q": "Files can contain multiple classes true/false",
+			"a": "true"
+		},
+		{
+			"q": "package name has to be first line if file is in a package t/f",
+			"a": "true"
+		},
+		{
+			"q": "T/F Multiple classes in one file can have their own package and imports?",
+			"a": "false, each file can only have 1 unique package and set of imports"
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
+		},
+		{
+			"q": "",
+			"a": ""
 		}
 	]
 }
