@@ -1,0 +1,48 @@
+{
+	"cards": [
+		{
+			"q": "Name some of the benefits of Java",
+			"a": "Object oriented, encapsulation, memory management (less prone to memory leaks), huge library, secure by design (jvm sandbox), write once run anywhere, strongly typed, multithreaded, distributed computing"
+		},
+		{
+			"q": "These are valid identifiers true or false: $objectOne, 1$objectTwo, _Object3",
+			"a": "false, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
+		},
+		{
+			"q": "These are valid identifiers true or false: $ObjectOne, _ObjectTwo, someObject3, someOtherObject$$99",
+			"a": "true, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
+		},
+		{
+			"q": "Valid identifier? : int :b;",
+			"a": "false"
+		},
+		{
+			"q": "Valid identifier? : int -d;",
+			"a": "false"
+		},
+		{
+			"q": "Valid identifier: int e#;",
+			"a": "false"
+		},
+		{
+			"q": "Valid identifier: int ______2_w;",
+			"a": "true"
+		},
+		{
+			"q": "Valid identifier? int $c;",
+			"a": "true"
+		},
+		{
+			"q": "Valid identifier? int 2nbr;",
+			"a": "false"
+		},
+		{
+			"q": "Valid keyword: default",
+			"a": "true"
+		},
+		{
+			"q": "Valid keyword: strictfp",
+			"a": "true"
+		}
+	]
+}
