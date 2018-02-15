@@ -1,424 +1,424 @@
 {
 	"cards": [
 		{
-			"q": "Name some of the benefits of Java",
-			"a": "Object oriented, encapsulation, memory management (less prone to memory leaks), huge library, secure by design (jvm sandbox), write once run anywhere, strongly typed, multithreaded, distributed computing"
+			"question": "Name some of the benefits of Java",
+			"answer": "Object oriented, encapsulation, memory management (less prone to memory leaks), huge library, secure by design (jvm sandbox), write once run anywhere, strongly typed, multithreaded, distributed computing"
 		},
 		{
-			"q": "These are valid identifiers true or false: $objectOne, 1$objectTwo, _Object3",
-			"a": "false, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
+			"question": "These are valid identifiers true or false: $objectOne, 1$objectTwo, _Object3",
+			"answer": "false, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
 		},
 		{
-			"q": "These are valid identifiers true or false: $ObjectOne, _ObjectTwo, someObject3, someOtherObject$$99",
-			"a": "true, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
+			"question": "These are valid identifiers true or false: $ObjectOne, _ObjectTwo, someObject3, someOtherObject$$99",
+			"answer": "true, identifiers can begin with letter, currency character or connecting character like underscore, but not a digit"
 		},
 		{
-			"q": "Valid identifier? : int :b;",
-			"a": "false"
+			"question": "Valid identifier? : int :b;",
+			"answer": "false"
 		},
 		{
-			"q": "Valid identifier? : int -d;",
-			"a": "false"
+			"question": "Valid identifier? : int -d;",
+			"answer": "false"
 		},
 		{
-			"q": "Valid identifier: int e#;",
-			"a": "false"
+			"question": "Valid identifier: int e#;",
+			"answer": "false"
 		},
 		{
-			"q": "Valid identifier: int ______2_w;",
-			"a": "true"
+			"question": "Valid identifier: int ______2_w;",
+			"answer": "true"
 		},
 		{
-			"q": "Valid identifier? int $c;",
-			"a": "true"
+			"question": "Valid identifier? int $c;",
+			"answer": "true"
 		},
 		{
-			"q": "Valid identifier? int 2nbr;",
-			"a": "false"
+			"question": "Valid identifier? int 2nbr;",
+			"answer": "false"
 		},
 		{
-			"q": "Valid keyword: default",
-			"a": "true"
+			"question": "Valid keyword: default",
+			"answer": "true"
 		},
 		{
-			"q": "Valid keyword: strictfp",
-			"a": "true"
+			"question": "Valid keyword: strictfp",
+			"answer": "true"
 		},
 		{
-			"q": "T/F : There can be only one public class per source file?",
-			"a": "true"
+			"question": "T/F : There can be only one public class per source file?",
+			"answer": "true"
 		},
 		{
-			"q": "T/F: Classes can be made private?",
-			"a": "false"
+			"question": "T/F: Classes can be made private?",
+			"answer": "false"
 		},
 		{
-			"q": "if there is a public class does the file name have to match True/False",
-			"a": "true"
+			"question": "if there is a public class does the file name have to match True/False",
+			"answer": "true"
 		},
 		{
-			"q": "Files can contain multiple classes true/false",
-			"a": "true"
+			"question": "Files can contain multiple classes true/false",
+			"answer": "true"
 		},
 		{
-			"q": "package name has to be first line if file is in a package t/f",
-			"a": "true"
+			"question": "package name has to be first line if file is in a package t/f",
+			"answer": "true"
 		},
 		{
-			"q": "T/F Multiple classes in one file can have their own package and imports?",
-			"a": "false, each file can only have 1 unique package and set of imports"
+			"question": "T/F Multiple classes in one file can have their own package and imports?",
+			"answer": "false, each file can only have 1 unique package and set of imports"
 		},
 		{
-			"q": "T/F main() can be overloaded?",
-			"a": "true"
+			"question": "T/F main() can be overloaded?",
+			"answer": "true"
 		},
 		{
-			"q": "java.util.* is valid?",
-			"a": "true, it allows all class in util to be used without specifying java.util.ClassName"
+			"question": "java.util.* is valid?",
+			"answer": "true, it allows all class in util to be used without specifying java.util.ClassName"
 		},
 		{
-			"q": "This this a valid import line? static import java.lang.System.out;",
-			"a": "false, import must be first identifier"
+			"question": "This this a valid import line? static import java.lang.System.out;",
+			"answer": "false, import must be first identifier"
 		},
 		{
-			"q": "import java.* is valid?",
-			"a": "false"
+			"question": "import java.* is valid?",
+			"answer": "false"
 		},
 		{
-			"q": "Name the access modifiers?",
-			"a": "public, protected, private"
+			"question": "Name the access modifiers?",
+			"answer": "public, protected, private"
 		},
 		{
-			"q": "Name the access controls?",
-			"a": "default, public, private, protected"
+			"question": "Name the access controls?",
+			"answer": "default, public, private, protected"
 		},
 		{
-			"q": "Name the non-access modifiers",
-			"a": "strictfp, final, abstract"
+			"question": "Name the non-access modifiers",
+			"answer": "strictfp, final, abstract"
 		},
 		{
-			"q": "Name the two access controls a class may use?",
-			"a": "default, public"
+			"question": "Name the two access controls a class may use?",
+			"answer": "default, public"
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		},
 		{
-			"q": "",
-			"a": ""
+			"question": "",
+			"answer": ""
 		}
 	]
 }
