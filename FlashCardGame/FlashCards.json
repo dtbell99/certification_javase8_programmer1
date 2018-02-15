@@ -77,28 +77,28 @@
 			"a": "true, it allows all class in util to be used without specifying java.util.ClassName"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "This this a valid import line? static import java.lang.System.out;",
+			"a": "false, import must be first identifier"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "import java.* is valid?",
+			"a": "false"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Name the access modifiers?",
+			"a": "public, protected, private"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Name the access controls?",
+			"a": "default, public, private, protected"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Name the non-access modifiers",
+			"a": "strictfp, final, abstract"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Name the two access controls a class may use?",
+			"a": "default, public"
 		},
 		{
 			"q": "",

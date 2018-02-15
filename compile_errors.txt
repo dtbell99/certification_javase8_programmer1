@@ -1,3 +1,8 @@
 1Class.java:1: error: <identifier> expected
 
+StaticImportsInvalid.java:1: error: class, interface, or enum expected
+
+ImportStarInvalid.java:6: error: cannot find symbol
+
+
 
