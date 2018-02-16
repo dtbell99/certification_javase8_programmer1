@@ -25,39 +25,18 @@
 			"answer": "false"
 		},
 		{
-<<<<<<< HEAD
-			"q": "Valid identifier: int ______2_w;",
-			"a": "True"
-		},
-		{
-			"q": "Valid identifier? int $c;",
-			"a": "True"
-=======
 			"question": "Valid identifier: int ______2_w;",
 			"answer": "true"
 		},
 		{
 			"question": "Valid identifier? int $c;",
 			"answer": "true"
->>>>>>> 722b9c642a81a005ff2dc53a87bc205971dca255
 		},
 		{
 			"question": "Valid identifier? int 2nbr;",
 			"answer": "false"
 		},
 		{
-<<<<<<< HEAD
-			"q": "Valid keyword: default",
-			"a": "True"
-		},
-		{
-			"q": "Valid keyword: strictfp",
-			"a": "True"
-		},
-		{
-			"q": "T/F : There can be only one public class per source file?",
-			"a": "True"
-=======
 			"question": "Valid keyword: default",
 			"answer": "true"
 		},
@@ -68,25 +47,12 @@
 		{
 			"question": "T/F : There can be only one public class per source file?",
 			"answer": "true"
->>>>>>> 722b9c642a81a005ff2dc53a87bc205971dca255
 		},
 		{
 			"question": "T/F: Classes can be made private?",
 			"answer": "false"
 		},
 		{
-<<<<<<< HEAD
-			"q": "if there is a public class does the file name have to match True/False",
-			"a": "True"
-		},
-		{
-			"q": "Files can contain multiple classes true/false",
-			"a": "True"
-		},
-		{
-			"q": "package name has to be first line if file is in a package t/f",
-			"a": "True"
-=======
 			"question": "if there is a public class does the file name have to match True/False",
 			"answer": "true"
 		},
@@ -97,20 +63,14 @@
 		{
 			"question": "package name has to be first line if file is in a package t/f",
 			"answer": "true"
->>>>>>> 722b9c642a81a005ff2dc53a87bc205971dca255
 		},
 		{
 			"question": "T/F Multiple classes in one file can have their own package and imports?",
 			"answer": "false, each file can only have 1 unique package and set of imports"
 		},
 		{
-<<<<<<< HEAD
-			"q": "T/F main() can be overloaded?",
-			"a": "True"
-=======
 			"question": "T/F main() can be overloaded?",
-			"answer": "true"
->>>>>>> 722b9c642a81a005ff2dc53a87bc205971dca255
+			"answer": "True"
 		},
 		{
 			"question": "java.util.* is valid?",
@@ -141,309 +101,156 @@
 			"answer": "default, public"
 		},
 		{
-<<<<<<< HEAD
-			"q": "T/F Default Access is the same as package level access?",
-			"a": "True"
+			"question": "T/F Default Access is the same as package level access?",
+			"answer": "True"
 		},
 		{
-			"q": "T/F strictfp can be used with final?",
-			"a": "True"
+			"question": "T/F strictfp can be used with final?",
+			"answer": "True"
 		},
 		{
-			"q": "T/F Classes can be both final and abstract",
-			"a": "False, these are two separate concepts, abstract classes must be extended, final means you can not extend it"
+			"question": "T/F Classes can be both final and abstract",
+			"answer": "False, these are two separate concepts, abstract classes must be extended, final means you can not extend it"
 		},
 		{
-			"q": "T/F strictfp is a keyword and can be used to modify a class and a method but never a variable",
-			"a": "True"
+			"question": "T/F strictfp is a keyword and can be used to modify a class and a method but never a variable",
+			"answer": "True"
 		},
 		{
-			"q": "T/F A final keyword on a class means it can be subclassed?",
-			"a": "False, final means it can NOT be subclassed."
+			"question": "T/F A final keyword on a class means it can be subclassed?",
+			"answer": "False, final means it can NOT be subclassed."
 		},
 		{
-			"q": "T/F An abstract class can never be instantiated?",
-			"a": "True"
+			"question": "T/F An abstract class can never be instantiated?",
+			"answer": "True"
 		},
 		{
-			"q": "Abstract classes can be executed.",
-			"a": "True, they can have public static void main and it can execute with java AbstractClass"
+			"question": "Abstract classes can be executed.",
+			"answer": "True, they can have public static void main and it can execute with java AbstractClass"
 		},
 		{
-			"q": "T/F Abstract can be applied to variables",
-			"a": "False, abstract can apply to classes and methods only"
+			"question": "T/F Abstract can be applied to variables",
+			"answer": "False, abstract can apply to classes and methods only"
 		},
 		{
-			"q": "T/F Abstract methods end in semicolon instead of curly brackets.",
-			"a": "True"
+			"question": "T/F Abstract methods end in semicolon instead of curly brackets.",
+			"answer": "True"
 		},
 		{
-			"q": "T/F An interface is considered a contract",
-			"a": "True"
+			"question": "T/F An interface is considered a contract",
+			"answer": "True"
 		},
 		{
-			"q": "T/F Abstract keyword must be applied to method signatures in the interface",
-			"a": "False, they are presumed if not specified"
+			"question": "T/F Abstract keyword must be applied to method signatures in the interface",
+			"answer": "False, they are presumed if not specified"
 		},
 		{
-			"q": "T/F Interfaces can have private methods",
-			"a": "False, methods must be public only"
+			"question": "T/F Interfaces can have private methods",
+			"answer": "False, methods must be public only"
 		},
 		{
-			"q": "T/F Inteface methods are implicitly public and abstract?",
-			"a": "True"
+			"question": "T/F Inteface methods are implicitly public and abstract?",
+			"answer": "True"
 		},
 		{
-			"q": "T/F Interfaces can only declare constants aka public static final and not instance variables.",
-			"a": "True; you can not create instance style variables in an interface."
+			"question": "T/F Interfaces can only declare constants aka public static final and not instance variables.",
+			"answer": "True; you can not create instance style variables in an interface."
 		},
 		{
-			"q": "T/F Interface methods can not be marked final, strictfp, or native",
-			"a": "True"
+			"question": "T/F Interface methods can not be marked final, strictfp, or native",
+			"answer": "True"
 		},
 		{
-			"q": "T/F An interface can extend one or more other interfaces",
-			"a": "True; it just can not anything else and cant implement another interface or class."
+			"question": "T/F An interface can extend one or more other interfaces",
+			"answer": "True; it just can not anything else and cant implement another interface or class."
 		},
 		{
-			"q": "T/F public abstract interface Rollable() is redundant?",
-			"a": "True; abstract is assumed and not necessary in signature. public is required if you dont want it to have default access"
+			"question": "T/F public abstract interface Rollable() is redundant?",
+			"answer": "True; abstract is assumed and not necessary in signature. public is required if you dont want it to have default access"
 		},
 		{
-			"q": "Valid Interface method? abstract public void bounce();",
-			"a": "Yes"
+			"question": "Valid Interface method? abstract public void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Valid Interface method? public abstract void bounce();",
-			"a": "Yes"
+			"question": "Valid Interface method? public abstract void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Valid Interface method? abstract void bounce();",
-			"a": "Yes"
+			"question": "Valid Interface method? abstract void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Valid Interface method? public void bounce();",
-			"a": "Yes"
+			"question": "Valid Interface method? public void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Valid Interface method? void bounce();",
-			"a": "Yes"
+			"question": "Valid Interface method? void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Are these all the same? void bounce(); public void bounce(); abstract void bounce(); public abstract void bounce(); abstract public void bounce();",
-			"a": "Yes"
+			"question": "Are these all the same? void bounce(); public void bounce(); abstract void bounce(); public abstract void bounce(); abstract public void bounce();",
+			"answer": "Yes"
 		},
 		{
-			"q": "Compiles? final void bounce();",
-			"a": "False, final and abstract can never be used"
+			"question": "Compiles? final void bounce();",
+			"answer": "False, final and abstract can never be used"
 		},
 		{
-			"q": "Compiles? private void bounce();",
-			"a": "False, interface methods are always public"
+			"question": "Compiles? private void bounce();",
+			"answer": "False, interface methods are always public"
 		},
 		{
-			"q": "Compiles? protected void bounce()",
-			"a": "False, interface methods are always public"
+			"question": "Compiles? protected void bounce()",
+			"answer": "False, interface methods are always public"
 		},
 		{
-			"q": "T/F Interface methods are always public?",
-			"a": "True"
+			"question": "T/F Interface methods are always public?",
+			"answer": "True"
 		},
 		{
-			"q": "Interface Constants Are implied public static final?",
-			"a": "True, you don't have to put them they are implied. public int, static int, final int, or any other combination are the same as regular int = blah."
+			"question": "Interface Constants Are implied public static final?",
+			"answer": "True, you don't have to put them they are implied. public int, static int, final int, or any other combination are the same as regular int = blah."
 		},
 		{
-			"q": "Interface constants must be public static final?",
-			"a": "True, they are ALWAYS even when implied, to be public, static, and final"
+			"question": "Interface constants must be public static final?",
+			"answer": "True, they are ALWAYS even when implied, to be public, static, and final"
 		},
 		{
-			"q": "T/F The default keyword can be used ONLY with interface method signatures not class method signatures?",
-			"a": "True"
+			"question": "T/F The default keyword can be used ONLY with interface method signatures not class method signatures?",
+			"answer": "True"
 		},
 		{
-			"q": "T/F default methods are public by definition, the public modifier is optional",
-			"a": "True"
+			"question": "T/F default methods are public by definition, the public modifier is optional",
+			"answer": "True"
 		},
 		{
-			"q": "T/F Default methods can not be marked private, protected, static, final, or abstract",
-			"a": "True"
+			"question": "T/F Default methods can not be marked private, protected, static, final, or abstract",
+			"answer": "True"
 		},
 		{
-			"q": "T/F Default methods MUST have a concrete method body",
-			"a": "True"
+			"question": "T/F Default methods MUST have a concrete method body",
+			"answer": "True"
 		},
 		{
-			"q": "Valid default method? default void m4();",
-			"a": "False, it doesn't have a concrete method body"
+			"question": "Valid default method? default void m4();",
+			"answer": "False, it doesn't have a concrete method body"
 		},
 		{
-			"q": "Valid default method? static default void m3(){;}",
-			"a": "False, default methods can not be static"
+			"question": "Valid default method? static default void m3(){;}",
+			"answer": "False, default methods can not be static"
 		},
 		{
-			"q": "Valid default method? public default void m2(){;}",
-			"a": "True"
+			"question": "Valid default method? public default void m2(){;}",
+			"answer": "True"
 		},
 		{
-			"q": "Valid default method? default int m1(){return 1;}",
-			"a": "True, here the default implies public"
+			"question": "Valid default method? default int m1(){return 1;}",
+			"answer": "True, here the default implies public"
 		},
 		{
-			"q": "T/F Java 8 allows static interface methods?",
-			"a": "True; and they are implied public"
-=======
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
-		},
-		{
-			"question": "",
-			"answer": ""
->>>>>>> 722b9c642a81a005ff2dc53a87bc205971dca255
+			"question": "T/F Java 8 allows static interface methods?",
+			"answer": "True; and they are implied public"
 		},
 		{
 			"question": "",
