@@ -217,40 +217,40 @@
 			"a": "True, they are ALWAYS even when implied, to be public, static, and final"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "T/F The default keyword can be used ONLY with interface method signatures not class method signatures?",
+			"a": "True"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "T/F default methods are public by definition, the public modifier is optional",
+			"a": "True"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "T/F Default methods can not be marked private, protected, static, final, or abstract",
+			"a": "True"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "T/F Default methods MUST have a concrete method body",
+			"a": "True"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Valid default method? default void m4();",
+			"a": "False, it doesn't have a concrete method body"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Valid default method? static default void m3(){;}",
+			"a": "False, default methods can not be static"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Valid default method? public default void m2(){;}",
+			"a": "True"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "Valid default method? default int m1(){return 1;}",
+			"a": "True, here the default implies public"
 		},
 		{
-			"q": "",
-			"a": ""
+			"q": "T/F Java 8 allows static interface methods?",
+			"a": "True; and they are implied public"
 		},
 		{
 			"q": "",
