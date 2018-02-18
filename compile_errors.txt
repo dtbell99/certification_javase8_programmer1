@@ -16,3 +16,7 @@ Bounceable.java:7: error: modifier private not allowed here
 StaticMethodInterface.java:2: error: missing method body, or declare abstract
 
 DefaultMethodInterface.java:#: error: method process() is already defined in interface DefaultMethodInterface
+
+Dog.java:7: error: sleep() in Dog cannot override sleep() in Animal
+
+./Computer.java:2: error: abstract methods cannot have a body

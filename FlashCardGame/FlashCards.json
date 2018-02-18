@@ -285,36 +285,36 @@
 			"answer": "False, no method body was specified"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Name the two modifiers allowed for a class.",
+			"answer": "public and default (aka package private)"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Name the four access modifiers for methods and variables.",
+			"answer": "public, private, protected, default"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How do you get the default modifier on a method or variable or class",
+			"answer": "default is default, you don't put anything."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What are the three ways to access a method?",
+			"answer": "1) Invoke a method declared in the same class, 2) Invoke a method using a reference of a class, 3) Invoke an inherited method"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F A method marked final in a super class can be overridden in a sub class",
+			"answer": "False, compiler error cannoit override error will occur."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Abstract methods can exist in a non-abstract class",
+			"answer": "False, if you mark a method abstract you must mark the class abstract also."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F abstract methods in a super class can have an implementation?",
+			"answer": "False, abstract methods by definition are abstract and you must implement them yourself in a subclass."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F super class constructor is called even when not specified with super() in sub class?",
+			"answer": "True; in Java the constructor from the super class is called when you instantiate the base class."
 		},
 		{
 			"question": "",
