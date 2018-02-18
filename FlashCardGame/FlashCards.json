@@ -253,36 +253,36 @@
 			"answer": "True; and they are implied public"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F static interface methods are public by default, and the public modifier is optional.",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F static interface methods can be marked private, protected, final, or abstract",
+			"answer": "false, marked or not they must be public."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Static interface methods must have a concrete method body?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Valid static interface method? static int m1(){ return 42; }",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Valid static interface method? public static void m2(){ ; }",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Valid static interface method? final static void m3(){ ; }",
+			"answer": "False, final is not allowed"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Valid static interface method? abstract static void m4(){ ; }",
+			"answer": "False, abstract is not allowed"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Valid static interface method? static void m5(); ",
+			"answer": "False, no method body was specified"
 		},
 		{
 			"question": "",

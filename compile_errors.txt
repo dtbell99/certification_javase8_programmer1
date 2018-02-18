@@ -12,3 +12,7 @@ Apple.java:3: error: Apple is not abstract and does not override abstract method
 
 Bounceable.java:7: error: modifier private not allowed here
     private void bounce2();
+
+StaticMethodInterface.java:2: error: missing method body, or declare abstract
+
+DefaultMethodInterface.java:#: error: method process() is already defined in interface DefaultMethodInterface
