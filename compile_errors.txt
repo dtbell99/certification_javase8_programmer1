@@ -20,3 +20,50 @@ DefaultMethodInterface.java:#: error: method process() is already defined in int
 Dog.java:7: error: sleep() in Dog cannot override sleep() in Animal
 
 ./Computer.java:2: error: abstract methods cannot have a body
+
+---
+
+Macintosh.java:11: error: displayBiosInformation() in Macintosh cannot override displayBiosInformation() in Computer
+    private void displayBiosInformation() {
+                 ^
+  attempting to assign weaker access privileges; was public
+1 error
+
+--- 
+
+Macintosh.java:20: error: cannot find symbol
+        mac.doSomethingPrivateInSuperClass();
+           ^
+  symbol:   method doSomethingPrivateInSuperClass()
+  location: variable mac of type Macintosh
+1 error
+
+---
+
+MacBook-Pro:AccessModifiers dbell$ javac packageone/ObjectOne.java
+MacBook-Pro:AccessModifiers dbell$ javac packagetwo/ObjectTwo.java
+packagetwo/ObjectTwo.java:8: error: doAction() is not public in ObjectOne; cannot be accessed from outside package
+        objectOne.doAction();
+                 ^
+1 error
+
+---
+
+MacBook-Pro:AccessModifiers dbell$ javac packagethree/ObjectThree.java
+packagethree/ObjectThree.java:10: error: cannot find symbol
+        o3.doAction();
+          ^
+  symbol:   method doAction()
+  location: variable o3 of type ObjectThree
+1 error
+
+---
+
+MacBook-Pro:AccessModifiers dbell$ javac packagethree/ObjectThree.java
+packagethree/ObjectThree.java:25: error: defaultVariable is not public in ObjectOne; cannot be accessed from outside package
+        System.out.println("default variable   : " + o3.defaultVariable);
+                                                       ^
+1 error
+
+---
+

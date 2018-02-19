@@ -317,48 +317,48 @@
 			"answer": "True; in Java the constructor from the super class is called when you instantiate the base class."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F You can make a inherited method private in a subclass?",
+			"answer": "False, you get a weaker access privilege exception at compile time."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Methods marked private are accessible only in that class?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Private methods in super classes are accessible in subclasses?",
+			"answer": "False, only private methods are visible to the class that holds it."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Always look at the class first when determining access control?",
+			"answer": "True, if the class isn't accessible you know the methods/variables are also not visible."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F A method marked private can NOT be overridden?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F This method signature will compile? static void public main(String[] args)",
+			"answer": "False, you get identifier expected and return type required compile errors."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Overriding depends on inheritence",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F public static is the same thing as static public?",
+			"answer": "True, in the method signature you can put the access modifier before or after the static or final keyword"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How do you access a super class method from a subclass in a different package?",
+			"answer": "Mark it public or protected so the subclass has access to it. Default WILL not work."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F javac will compile dependencies automatically (imported classes for example).",
+			"answer": "True; if you run javac on a class that imports another the compiler will recompile that other class too."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F You can access a default variable in a superclass from a subclass?",
+			"answer": "False; same method rules apply, if not public or protected you have to be in the same package to access the variable."
 		},
 		{
 			"question": "",
