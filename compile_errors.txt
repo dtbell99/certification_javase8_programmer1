@@ -83,3 +83,21 @@ packagethree/ObjectThree2.java:9: error: defaultVariable is not public in Object
 
 ---
 
+MacBook-Pro:protected_details dbell$ javac p2/Sub2.java
+p2/Sub2.java:8: error: action() has protected access in Super
+        s.action();
+         ^
+1 error
+
+---
+
+public static void main(String[] args) {
+        public int bar = 0;
+}
+
+LocalVariable.java:5: error: illegal start of expression
+        public int bar = 0;
+        ^
+1 error
+
+---

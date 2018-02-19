@@ -381,40 +381,40 @@
 			"answer": "False; the subclass has access, but to all else it is private. So the compiler errors out about protected access in the original super class."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Default members are visible to subclasses ONLY if those subclasses are in the same package as the superclass?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Access modifiers can be applied to local variables?",
+			"answer": "False, these will not compile and isn't allowed"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Access modifiers can be applied to instance variables?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F final modifier can be applied to local variables?",
+			"answer": "True, and it is the only one :)"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Which of these has access (public/private/protected/default) : From the same class",
+			"answer": "All, public private protected and default"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Which of these has access (public/private/protected/default) : From any class in the same package",
+			"answer": "Public, Protected, and Default (not private)"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Which of these has access (public/private/protected/default) : From a subclass in the same package",
+			"answer": "public, protected, default"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Which of these has access (public/private/protected/default) : From a subclass outside the same package",
+			"answer": "public, protected (through inheritence only)"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Which of these has access (public/private/protected/default) : From any nonsubclass class outside the package",
+			"answer": "public"
 		},
 		{
 			"question": "",
