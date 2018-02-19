@@ -67,3 +67,19 @@ packagethree/ObjectThree.java:25: error: defaultVariable is not public in Object
 
 ---
 
+MacBook-Pro:AccessModifiers dbell$ javac packagethree/ObjectThree.java
+packagethree/ObjectThree.java:29: error: protectedVariable has protected access in ObjectOne
+        System.out.println(o1.protectedVariable);
+                             ^
+1 error
+
+---
+
+MacBook-Pro:AccessModifiers dbell$ javac packagethree/ObjectThree2.java
+packagethree/ObjectThree2.java:9: error: defaultVariable is not public in ObjectOne; cannot be accessed from outside package
+        System.out.println("default variable   : " + o32.defaultVariable);
+                                                        ^
+1 error
+
+---
+

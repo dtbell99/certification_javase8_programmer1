@@ -361,24 +361,24 @@
 			"answer": "False; same method rules apply, if not public or protected you have to be in the same package to access the variable."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F super class protected methods/variables can be accessed with a new object of that type created?",
+			"answer": "False; protected only works for subclasses outside the same package. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F A protected member has essentially paackage level aka default access to all classes except subclasses",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Subclasses outside the package can inherit a protected member?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Subclasses outside the package can instantiate and reference a superclass protected member?",
+			"answer": "True; it must be accessed via the subclass dot notation otherwise instantiating the super class will fail to work on that member."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F A class that instantiates another object which inherits a protected member can access that member?",
+			"answer": "False; the subclass has access, but to all else it is private. So the compiler errors out about protected access in the original super class."
 		},
 		{
 			"question": "",

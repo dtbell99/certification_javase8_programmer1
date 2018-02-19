@@ -2,7 +2,7 @@ package packagethree;
 
 import packageone.ObjectOne;
 
-class ObjectThree extends ObjectOne {
+public class ObjectThree extends ObjectOne {
 
     public static void main(String[] args) {
         ObjectThree o3 = new ObjectThree();
@@ -19,11 +19,18 @@ class ObjectThree extends ObjectOne {
         o3.doAction3();
 
         System.out.println("public variable    : " + o3.publicVariable);
-
         System.out.println("protected variable : " + o3.protectedVariable);
-
         // This won't work because you can't access a default variable just like you can't access a default method. Rules are the same. 
-        System.out.println("default variable   : " + o3.defaultVariable);
+        //System.out.println("default variable   : " + o3.defaultVariable);
+
+        // How about this one? This works fine in packageone.ObjectOne2 (same package.. but here we are in packagethree.. hmm)
+
+        ObjectOne o1 = new ObjectOne();
+        System.out.println("public variable: " + o1.publicVariable);
+        // These fail because they are not in the same package but they DO work from ObjectThree because it is a subclass. 
+        //System.out.println("private variable: " + o1.protectedVariable);
+        //System.out.println("default varialbe: " + o1.defaultVariable);
+
     }
 
 }
