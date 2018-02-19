@@ -417,20 +417,20 @@
 			"answer": "public"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F These two methods are the same? public void doAction(int i) public void doAction(final int i)",
+			"answer": "True, the signature is the same, they both take a int.. one just makes it final but they are the same and will cause the compiler to fail on a already defined in class error."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Abstract methods can exist in public class declared classes?",
+			"answer": "False; abstract methods require abstract classes. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Abstract classes must have at least one abstract method.",
+			"answer": "False, abstract classes block instantiation but don't have to have any abstract methods."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Abstract subclasses do not need to create another abstract signature if they intend to have THEIR subclass implement their super class abstract method?",
+			"answer": "True; if a sub class is abstract is doesn't HAVE to implement the method or even mention it is not implementing it."
 		},
 		{
 			"question": "",

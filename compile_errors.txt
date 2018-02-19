@@ -101,3 +101,33 @@ LocalVariable.java:5: error: illegal start of expression
 1 error
 
 ---
+
+MacBook-Pro:Example1 dbell$ javac Sub.java
+Sub.java:3: error: doAction() in Sub cannot override doAction() in Super
+    public void doAction() {
+                ^
+  overridden method is final
+1 error
+MacBook-Pro:Example1 dbell$
+
+--
+
+MacBook-Pro:Example2 dbell$ javac Sub.java
+Sub.java:1: error: cannot inherit from final Super
+class Sub extends Super {
+                  ^
+---
+
+FinalArguments.java:8: error: final parameter i may not be assigned
+        i = 12;
+        ^
+
+---
+
+MacBook-Pro:Example4 dbell$ javac Sub.java
+Sub.java:1: error: Sub is not abstract and does not override abstract method doAction() in Super
+class Sub extends Super {
+^
+
+---
+
