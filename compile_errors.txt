@@ -131,3 +131,39 @@ class Sub extends Super {
 
 ---
 
+MacBook-Pro:AccessModifiers dbell$ javac StaticAbstract.java
+StaticAbstract.java:2: error: illegal combination of modifiers: abstract and static
+    abstract static void doAction();
+                         ^
+StaticAbstract.java:1: error: StaticAbstract is not abstract and does not override abstract method doAction() in StaticAbstract
+class StaticAbstract {
+^
+2 errors
+
+---
+
+MacBook-Pro:VarArgs dbell$ javac InvalidVarargs.java
+InvalidVarargs.java:3: error: ')' expected
+    public void process(int... i, int... j) {
+                                ^
+InvalidVarargs.java:3: error: <identifier> expected
+    public void process(int... i, int... j) {
+                                     ^
+InvalidVarargs.java:3: error: <identifier> expected
+    public void process(int... i, int... j) {
+                                          ^
+3 errors
+
+---
+
+MacBook-Pro:VarArgs dbell$ javac InvalidVarargs.java
+InvalidVarargs.java:7: error: ')' expected
+    public void process(int... j, String someString) {
+                                ^
+InvalidVarargs.java:7: error: ';' expected
+    public void process(int... j, String someString) {
+                                                   ^
+2 errors
+
+---
+

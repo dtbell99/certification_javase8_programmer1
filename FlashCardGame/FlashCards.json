@@ -433,64 +433,64 @@
 			"answer": "True; if a sub class is abstract is doesn't HAVE to implement the method or even mention it is not implementing it."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Any class that extends an abstract class must implement all abstract methods of the superclass unless the usbclass is also abstract?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Concrete means non-abstract?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Methods can be abstract and final?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Methods can be marked abstract and private?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F This is a legal signature? abstract static void doAction();",
+			"answer": "False; abstract methods can not be static."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F The synchronized keyword can be used only with methods and not variables and classes?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F The native keyword can be used only with methods and not variables and classes?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Native methods end in semicolons similiar to abstract methods?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F strictfp is used to enforce floating points that adhere to IEEE 754?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F strictfp can be applied to a class or method but never a variable?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Methods can contain one or more varargs?",
+			"answer": "False, one method can only contain one vararg. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Varargs can go anywhere in the parameter list of a method?",
+			"answer": "False; they must go at the end if there are other parameters. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Constructors can be static?",
+			"answer": "False; the point of constructors is to construct a new object which is the opposite of what static methods achieve. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Constructors can have return values?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Constructors must be named after the class?",
+			"answer": "True"
 		},
 		{
 			"question": "",
