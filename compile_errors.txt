@@ -167,3 +167,36 @@ InvalidVarargs.java:7: error: ';' expected
 
 ---
 
+InvalidDeclare.java:2: error: ']' expected
+	int[5] primativeArray;
+
+---
+
+Foo.java:5: error: cannot assign a value to final variable name
+		name = "fred";
+		^
+
+---
+
+MacBook-Pro:Final dbell$ javac Bar.java
+Bar.java:9: error: cannot assign a value to final variable name
+		b.name = "tom";
+		 ^
+1 error
+
+---
+
+BikeType.java:10: error: modifier public not allowed here
+	public BikeType(String name, String description) {
+	       ^
+
+---
+
+MacBook-Pro:Constructors dbell$ javac Test.java
+Test.java:7: error: Test() has private access in Test
+		Test t = new Test();
+		         ^
+1 error
+
+---
+

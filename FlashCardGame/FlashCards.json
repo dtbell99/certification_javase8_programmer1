@@ -493,140 +493,140 @@
 			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Constructors can be final?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Constructors can be abstract?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Is this valid? class Foo { Foo(int...i, String t) {} }",
+			"answer": "Trick question; varargs can not be in the front of the method. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Name the two types of variables in java. ",
+			"answer": "Primitives and Reference types."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Name the primitive types.",
+			"answer": "char, boolean, byte, short, int, long, double, float."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What is the order from smallest to largest primitive integers?",
+			"answer": "byte, short, int, long"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F doubles are bigger than floats?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F integer and floating point numbers in java are signed?",
+			"answer": "True; the first bit 0 is positive and 1 is negative. (signed meaning positive or negative)"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in a byte?",
+			"answer": "8 bits, 1 byte"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in a short?",
+			"answer": "16 bits, 2 bytes"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in an int?",
+			"answer": "32 bits 4 bytes"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in a long?",
+			"answer": "64 bits 8 bytes"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in a float?",
+			"answer": "32 bits 4 bytes"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "How many bits and bytes are in a double?",
+			"answer": "64 bits 8 bytes"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Reference variables can be declared as static variables, instance variables, method parameters, or local variables?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What is the value of s2 and s3? String s1, s2, s3 = \"Wow\";",
+			"answer": "s2 is null and s3 equals wow"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What is the value of i2 and i3? int i1, i2, i3 = 929;",
+			"answer": "i2 is 0 and i3 is 929"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain variable shadowing.",
+			"answer": "When you pass the same name in a parameter as an instance variable. this.size = size you must use this or it doens't work. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Arrays can hold both primative and object types?",
+			"answer": "True; remember arrays are always objects on the heap even when they hold primatives."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Is this valid? String[] myArray []; ?",
+			"answer": "Yes, you can put the brackets are the beginning or end.. this is a multidimensional array."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Is this valid? int myPrimaryArray []; ?",
+			"answer": "Yes, the brackets can go at the end but why would you?"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain final primative vs. final reference",
+			"answer": "A final primative can't have it's value changed or a new variable assigned to it. A final reference also can't have a new variable assigned but the values inside the reference object can be changed."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Final references allow mutation of their instance variables.",
+			"answer": "True; So long as they don't have final on those instance variabes."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F There are no final objects, only final references?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain transient variables",
+			"answer": "Variables that are ignored when the object is serialized. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain volatile variables",
+			"answer": "A variables which must reconcile its own private copy of the variable with the master copy in memory. (Not necessary for OCA8 test)."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Name what can be marked static?",
+			"answer": "Methods, variables, a class nested within another class, and an initialization block {}"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What can not be marked static?",
+			"answer": "Constructor, classes, interfaces, method local inner classes, inner class methods and instance variables, local variables"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F An enum can have a public constructor?",
+			"answer": "False"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Enum in another class must be referenced with ClassName. just like static?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Enum can be created inside a method?",
+			"answer": "False, only in its own file or in a class outside a method."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What method do all enums have?",
+			"answer": "values() ; this returns the enums in an array in the order they were created."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain a enum constant specific class body.",
+			"answer": "Similar to the look of an anonymous inner class you add { override method code } after the () to override methods in the enum."
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F Classes implement interfaces, interfaces extend other interfaces, classes extend other classes",
+			"answer": "True"
 		},
 		{
 			"question": "",
