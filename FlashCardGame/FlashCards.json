@@ -629,16 +629,16 @@
 			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "T/F You can extend a class from a class and an interface from an interface only?",
+			"answer": "True"
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Explain implements vs. extends",
+			"answer": "You implement one or more interfaces in a class. You extend a base class in a subclass. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "Is x true or false? int x = 0; ++x == 1;",
+			"answer": "True; ++ in front as opposed to x++ means the value is increased then evaluated. "
 		},
 		{
 			"question": "",
