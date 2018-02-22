@@ -641,8 +641,8 @@
 			"answer": "True; ++ in front as opposed to x++ means the value is increased then evaluated. "
 		},
 		{
-			"question": "",
-			"answer": ""
+			"question": "What are the two most common reasons for using inheritence?",
+			"answer": "Polymorphism and code reuse."
 		},
 		{
 			"question": "",
