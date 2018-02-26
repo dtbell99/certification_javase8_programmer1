@@ -209,3 +209,11 @@ Invalid.java:2: error: doAction() in Invalid cannot override doAction() in Super
 
 ---
 
+MacBook-Pro:Overriding dbell$ javac SuperSuperTest.java
+SuperSuperTest.java:23: error: ';' expected
+        sub.action()
+                    ^
+1 error
+
+---
+
