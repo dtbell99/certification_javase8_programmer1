@@ -200,3 +200,12 @@ Test.java:7: error: Test() has private access in Test
 
 ---
 
+MacBook-Pro:Overriding dbell$ javac Invalid.java
+Invalid.java:2: error: doAction() in Invalid cannot override doAction() in SuperInvalid
+    private void doAction() {
+                 ^
+  attempting to assign weaker access privileges; was public
+1 error
+
+---
+
