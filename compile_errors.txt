@@ -217,3 +217,20 @@ SuperSuperTest.java:23: error: ';' expected
 
 ---
 
+Exception in thread "main" java.lang.ClassCastException: Pet cannot be cast to Cat
+
+---
+
+MacBook-Pro:Interfaces dbell$ javac Valid.java
+Valid.java:11: error: class PC inherits unrelated defaults for disconnect() from types Computer and ElectronicDevice
+class PC implements Computer, ElectronicDevice {
+^
+1 error
+
+---
+
+Invalid.java:16: error: incompatible types: Foo cannot be converted to Bar
+        return f;
+               ^
+
+---
